@@ -1,0 +1,1458 @@
+[
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9873310327529907,
+    "std": 0.002387404441833496,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.0038408171385526657,
+    "std": 0.0011105034500360489,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.004258084110915661,
+    "std": 0.0015049325302243233,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.97826087474823,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.003264714265242219,
+    "std": 0.00032175262458622456,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.0061313065234571695,
+    "std": 0.0008503689896315336,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.06567409634590149,
+    "std": 0.005088359117507935,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 44.33329391479492,
+    "std": 1.2124900817871094,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.9814808368682861,
+    "std": 0.002240896224975586,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.2235308662056923,
+    "std": 0.0024217739701271057,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.21022838354110718,
+    "std": 0.004639878869056702,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.013302482664585114,
+    "std": 0.002218104898929596,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9339142990112305,
+    "std": 0.0025802004337310835,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.09048469487577676,
+    "std": 0.0009126939252018865,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.09720988787710666,
+    "std": 0.00024397708475589613,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.048211041553877294,
+    "std": 0.0036885956721380356,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.0510978164896369,
+    "std": 0.00047927904874086463,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.0060499684140086175,
+    "std": 0.000796602135524154,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.06823088061064482,
+    "std": 0.004562399275600912,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 44.446184196472174,
+    "std": 1.1492116928100593,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.9833048814535141,
+    "std": 0.004441094994544981,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.2161509221792221,
+    "std": 8.307546377181452e-05,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21142293587327005,
+    "std": 0.0007836736738681821,
+    "n": 2
+  },
+  {
+    "k": 1,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.008784831911325456,
+    "std": 0.0002457897365093229,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9808311313390732,
+    "std": 0.005699470639228821,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.004720577970147133,
+    "std": 0.0006725983694195747,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.005089393351227045,
+    "std": 0.0007450573612004519,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.868320032954216,
+    "std": 0.03959663212299347,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.0058725135459098965,
+    "std": 0.0019763185118790716,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.006977633107453585,
+    "std": 0.0006391776259988546,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.07258824072778225,
+    "std": 0.0049162860959768295,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 43.16245460510254,
+    "std": 0.7979145050048828,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.9758411645889282,
+    "std": 0.007264673709869385,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.1981063224375248,
+    "std": 0.028110254555940628,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.18153736554086208,
+    "std": 0.029153117910027504,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.016568956896662712,
+    "std": 0.001042863354086876,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9213987207412719,
+    "std": 0.01715371012687683,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.09842991888523102,
+    "std": 0.013737224787473676,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.10548861514776944,
+    "std": 0.013574549295008183,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.046072468836791815,
+    "std": 0.00017966211307793994,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.05125179573893547,
+    "std": 0.0007346789538860317,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.00688899552449584,
+    "std": 0.0006158051546663046,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.07515321381390094,
+    "std": 0.007161172553896901,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 43.27663124084472,
+    "std": 0.778227005004883,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.978957650065422,
+    "std": 0.004888766407966594,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.21464843168854714,
+    "std": 0.001456473022699356,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21142293587327005,
+    "std": 0.0007836736738681821,
+    "n": 2
+  },
+  {
+    "k": 2,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.008686283230781555,
+    "std": 0.00036992669105529764,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9744622334837914,
+    "std": 0.007770620286464691,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.00512176938354969,
+    "std": 0.0011353986337780952,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.005170954507775605,
+    "std": 0.0014318717876449227,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.7053396627306938,
+    "std": 0.018786638975143433,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.01291646552272141,
+    "std": 0.003948220401071012,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.006832510000094771,
+    "std": 0.00045479752589017153,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.06686843559145927,
+    "std": 0.003848802298307419,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 43.32935953140259,
+    "std": 0.5796513557434082,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.9808641448616982,
+    "std": 0.00040224939584732056,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.20977813564240932,
+    "std": 0.008000491186976433,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.19592875894159079,
+    "std": 0.012307875789701939,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.015037952922284603,
+    "std": 0.0031188083812594414,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9285990363359451,
+    "std": 0.003928646445274353,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.09129957258701324,
+    "std": 0.012477738633751866,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.09820367513224482,
+    "std": 0.01649000504985452,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.04746104474877939,
+    "std": 0.0001689469651319081,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.051143007241189475,
+    "std": 0.0008185488358140001,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.0067966478923335676,
+    "std": 0.00043174582999199644,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.06687627680599689,
+    "std": 0.0038352299481630298,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 43.37674083709717,
+    "std": 0.5532423019409194,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.9798290508985519,
+    "std": 0.0016326767206192305,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.2146747051179409,
+    "std": 0.0011266513168811804,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21142293587327005,
+    "std": 0.0007836736738681821,
+    "n": 2
+  },
+  {
+    "k": 4,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.00882981240749359,
+    "std": 0.0013334426283836366,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9707963243126869,
+    "std": 0.002798408269882202,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.005925199599005282,
+    "std": 0.00031706190202385187,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.005793585485662334,
+    "std": 0.0002815427287714556,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.4709545527584851,
+    "std": 0.022612737026065588,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.024465158610837534,
+    "std": 0.0011618333810474724,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.006738838244928047,
+    "std": 7.98024411778897e-05,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.061650957679376006,
+    "std": 0.00019067362882196903,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 43.43246912956238,
+    "std": 0.10339617729187012,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.978020690381527,
+    "std": 0.0017952769994735718,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.20550717832520604,
+    "std": 0.017919186037033796,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.19906951254233718,
+    "std": 0.015067639295011759,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.010347605682909489,
+    "std": 0.00015144888311624527,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9336565780639648,
+    "std": 0.00014753937721256882,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.08395881325006485,
+    "std": 0.0012517767399549476,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.090004275245592,
+    "std": 0.001778121059760454,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.04815112088806927,
+    "std": 0.0004630513209849599,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.05098256606608629,
+    "std": 0.0006551941111683848,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.006778483623638749,
+    "std": 8.242770098149804e-05,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.06167950309813022,
+    "std": 0.00016596816480159496,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 43.383012504577636,
+    "std": 0.1042543411254897,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.9797115707397461,
+    "std": 0.0010043096542358687,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.21432741522789,
+    "std": 0.0009398815035819991,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21142293587327005,
+    "std": 0.0007836736738681821,
+    "n": 2
+  },
+  {
+    "k": 8,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.008927771896123886,
+    "std": 0.001773809343576431,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9865215178579092,
+    "std": 0.004068287089467049,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.004948251589667052,
+    "std": 0.0010743995080702007,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.005118939952808432,
+    "std": 0.0011331906425766647,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.21086350793484598,
+    "std": 0.006003496586345136,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.04120510441134684,
+    "std": 0.001344423770206049,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.004822571179829538,
+    "std": 0.00023409584537148476,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.051985762314870954,
+    "std": 0.0012706441339105368,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 46.34816038608551,
+    "std": 0.41991984844207764,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.9890073854476213,
+    "std": 0.00037804804742336273,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.20722401444800198,
+    "std": 0.015240721171721816,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.20493481098674238,
+    "std": 0.01562496111728251,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.004195079673081636,
+    "std": 0.001023022923618555,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9677467036247254,
+    "std": 0.0021210110187530606,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.04359974849969149,
+    "std": 0.0033745356649160403,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.047453793759923424,
+    "std": 0.003273148580919951,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.04769183891825378,
+    "std": 0.0007009863946586849,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.05100497219711542,
+    "std": 0.0006555305048823352,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.004837240627966821,
+    "std": 0.0002427342114970088,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.051985427588224414,
+    "std": 0.0012674470245838156,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 46.32254463195801,
+    "std": 0.4367870330810568,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.9896513956785202,
+    "std": 0.0005428391695022627,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.2139203456044197,
+    "std": 0.0013460078835487305,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21142293587327005,
+    "std": 0.0007836736738681821,
+    "n": 2
+  },
+  {
+    "k": 16,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.005825830549001694,
+    "std": 0.001199794262647629,
+    "n": 2
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9986739885061979,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.0009410117345396429,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.0009836029930738732,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.09692553954664618,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.05061124870553613,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.0018832396599464118,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.03325491363648325,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 54.50665557384491,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.9980878215283155,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.217117371968925,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.2168699400499463,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.0010019103065133095,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9931953203678131,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.010192581005394458,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.011248418225441127,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.05039988543838263,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.05028729848563671,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.001891218088567257,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.033264568969607354,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 54.46763313293457,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.9983151566982269,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.21166111528873444,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21063926219940185,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 32,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.0022465097904205322,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "cos_preserve",
+    "mean": 0.9992417152971029,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "dist_kl",
+    "mean": 0.0007988892793946434,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "dist_kl_T1",
+    "mean": 0.0009119477640524565,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.07511009945301339,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "mask_l1",
+    "mean": 0.05061054672114551,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "pert_l2_rms",
+    "mean": 0.0011842598632938461,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "pert_linf",
+    "mean": 0.030102816701401025,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "pert_psnr",
+    "mean": 58.53367346525192,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "pert_ssim",
+    "mean": 0.9992820685729384,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "sim_after",
+    "mean": 0.21376588242128491,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "sim_before",
+    "mean": 0.21372448455076665,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "train",
+    "metric": "sim_delta",
+    "mean": 0.0008329801494255662,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "best_loss",
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "cos_preserve",
+    "mean": 0.9966247665882111,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "dist_kl",
+    "mean": 0.004196557691320777,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "dist_kl_T1",
+    "mean": 0.004748810374876484,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "mask_iou_at_mean",
+    "mean": 0.05212549952790141,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "mask_l1",
+    "mean": 0.0502828948199749,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "pert_l2_rms",
+    "mean": 0.0011853746767155825,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "pert_linf",
+    "mean": 0.030103720724582672,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "pert_psnr",
+    "mean": 58.52530914306641,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "pert_ssim",
+    "mean": 0.9993044328689575,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "sim_after",
+    "mean": 0.2115043419599533,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "sim_before",
+    "mean": 0.21063926219940185,
+    "std": 0.0,
+    "n": 1
+  },
+  {
+    "k": 64,
+    "split": "transfer",
+    "metric": "sim_delta",
+    "mean": 0.0016202199459075927,
+    "std": 0.0,
+    "n": 1
+  }
+]

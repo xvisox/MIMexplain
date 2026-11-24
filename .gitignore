@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors and OS state
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Local outputs and experiment artifacts
+artifacts/
+outputs/
+tmp/
+logs/
+mimuw_outputs/
+
+# Local datasets, checkpoints, and caches
+data/
+checkpoints/
+.cache/
+wandb/
+
+# Environment files
+.env
+.env.*
+
+temporary/

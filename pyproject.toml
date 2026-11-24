@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mimexplain"
+version = "0.1.0"
+description = "MetaCLIP-2 Grad-ECLIP baseline and research scaffolding for the MIM explainable ML project."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.13.0",
+    "jupyter>=1.1.1",
+    "kaggle>=2.2.0",
+    # kagglehub 1.0.x imports `get_web_endpoint`, which is absent from every
+    # published kagglesdk (<=0.1.26), so the 1.0 line is broken on PyPI.
+    # Pin to the 0.4.x line, which works with kagglesdk 0.1.26.
+    "kagglehub[pandas-datasets]>=0.4.3,<1.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "opencv-contrib-python>=4.13.0.92",
+    "pillow>=12.2.0",
+    "seaborn>=0.13.2",
+    "torch>=2.0.0,<=2.6.0",
+    "transformers>=5.5.3",
+]
+
+[project.scripts]
+mimexplain = "explainer.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.20.0",
+    "pre-commit>=4.5.1",
+    "pytest>=9.0.2",
+    "ruff>=0.15.12",
+]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/openai/CLIP.git" }
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+extend-select = ["I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not slow' --strict-markers -ra"
+markers = [
+    "slow: requires HuggingFace model download (~GBs) and real inference",
+]
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+
+[tool.hatch.build.targets.wheel]
+packages = ["explainer"]
